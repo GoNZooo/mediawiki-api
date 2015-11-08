@@ -1,0 +1,3 @@
+[submodule "gonz"]
+	path = gonz
+	url = https://github.com/GoNZooo/gonz.git
