@@ -24,7 +24,7 @@
                    #:headers
                    `(,(format "User-Agent: ~a"
                               user-agent)
-                      "Content-Type: application/x-www-form-urlencoded")))
+                     "Content-Type: application/x-www-form-urlencoded")))
 
   (read-json input-port))
 
@@ -41,7 +41,7 @@
                    #:headers
                    `(,(format "User-Agent: ~a"
                               user-agent)
-                      "Content-Type: application/x-www-form-urlencoded")))
+                     "Content-Type: application/x-www-form-urlencoded")))
 
   (read-json input-port))
 
@@ -58,7 +58,7 @@
                    #:headers
                    `(,(format "User-Agent: ~a"
                               user-agent)
-                      "Content-Type: application/x-www-form-urlencoded")))
+                     "Content-Type: application/x-www-form-urlencoded")))
 
   (read-json input-port))
 
@@ -98,7 +98,7 @@
                    #:headers
                    `(,(format "User-Agent: ~a"
                               user-agent)
-                      "Content-Type: application/x-www-form-urlencoded")))
+                     "Content-Type: application/x-www-form-urlencoded")))
 
   (read-json input-port))
 
@@ -113,4 +113,4 @@
 (module+ main
   (require racket/pretty)
   (pretty-print
-    (images "Weird Science")))
+   (images "Weird Science")))
